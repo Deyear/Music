@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721E0C7E1D1EB51A005F8516 /* 唱针.png in Resources */ = {isa = PBXBuildFile; fileRef = 721E0C7D1D1EB51A005F8516 /* 唱针.png */; };
+		7267436B1D19753100678953 /* 添加图片.png in Resources */ = {isa = PBXBuildFile; fileRef = 7267436A1D19753100678953 /* 添加图片.png */; };
+		7267436F1D19758300678953 /* SongImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7267436E1D19758300678953 /* SongImageView.m */; };
+		726743711D199A1D00678953 /* 栏目—播放.png in Resources */ = {isa = PBXBuildFile; fileRef = 726743701D199A1D00678953 /* 栏目—播放.png */; };
 		72ED05D31D17EAC30033C8B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ED05D21D17EAC30033C8B0 /* main.m */; };
 		72ED05D61D17EAC30033C8B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ED05D51D17EAC30033C8B0 /* AppDelegate.m */; };
 		72ED05D91D17EAC30033C8B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ED05D81D17EAC30033C8B0 /* ViewController.m */; };
 		72ED05DC1D17EAC30033C8B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ED05DA1D17EAC30033C8B0 /* Main.storyboard */; };
 		72ED05DE1D17EAC30033C8B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72ED05DD1D17EAC30033C8B0 /* Assets.xcassets */; };
 		72ED05E11D17EAC30033C8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ED05DF1D17EAC30033C8B0 /* LaunchScreen.storyboard */; };
+		8090E0AC2CFC30B043412AA3 /* Pods_Music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED18BCCF2F133948C17A3CF /* Pods_Music.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38F9E12B38CD564330A742F3 /* Pods-Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music.release.xcconfig"; path = "Pods/Target Support Files/Pods-Music/Pods-Music.release.xcconfig"; sourceTree = "<group>"; };
+		721E0C7D1D1EB51A005F8516 /* 唱针.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "唱针.png"; sourceTree = "<group>"; };
+		7267436A1D19753100678953 /* 添加图片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加图片.png"; sourceTree = "<group>"; };
+		7267436D1D19758300678953 /* SongImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongImageView.h; sourceTree = "<group>"; };
+		7267436E1D19758300678953 /* SongImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongImageView.m; sourceTree = "<group>"; };
+		726743701D199A1D00678953 /* 栏目—播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "栏目—播放.png"; sourceTree = "<group>"; };
 		72ED05CE1D17EAC30033C8B0 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72ED05D21D17EAC30033C8B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		72ED05D41D17EAC30033C8B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +37,8 @@
 		72ED05DD1D17EAC30033C8B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72ED05E01D17EAC30033C8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72ED05E21D17EAC30033C8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794EEED19A9BA09BA70E447F /* Pods-Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Music/Pods-Music.debug.xcconfig"; sourceTree = "<group>"; };
+		AED18BCCF2F133948C17A3CF /* Pods_Music.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8090E0AC2CFC30B043412AA3 /* Pods_Music.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12F829FB269DF5E28CF28852 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				794EEED19A9BA09BA70E447F /* Pods-Music.debug.xcconfig */,
+				38F9E12B38CD564330A742F3 /* Pods-Music.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D8C6A991C2E1E7926C8831C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AED18BCCF2F133948C17A3CF /* Pods_Music.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		726743691D19753100678953 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				721E0C7D1D1EB51A005F8516 /* 唱针.png */,
+				726743701D199A1D00678953 /* 栏目—播放.png */,
+				7267436A1D19753100678953 /* 添加图片.png */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		7267436C1D19753D00678953 /* 唱片旋转 */ = {
+			isa = PBXGroup;
+			children = (
+				7267436D1D19758300678953 /* SongImageView.h */,
+				7267436E1D19758300678953 /* SongImageView.m */,
+			);
+			name = "唱片旋转";
+			sourceTree = "<group>";
+		};
 		72ED05C51D17EAC30033C8B0 = {
 			isa = PBXGroup;
 			children = (
+				726743691D19753100678953 /* 图片 */,
 				72ED05D01D17EAC30033C8B0 /* Music */,
 				72ED05CF1D17EAC30033C8B0 /* Products */,
+				12F829FB269DF5E28CF28852 /* Pods */,
+				6D8C6A991C2E1E7926C8831C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +111,7 @@
 		72ED05D01D17EAC30033C8B0 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				7267436C1D19753D00678953 /* 唱片旋转 */,
 				72ED05D41D17EAC30033C8B0 /* AppDelegate.h */,
 				72ED05D51D17EAC30033C8B0 /* AppDelegate.m */,
 				72ED05D71D17EAC30033C8B0 /* ViewController.h */,
@@ -86,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72ED05E51D17EAC30033C8B0 /* Build configuration list for PBXNativeTarget "Music" */;
 			buildPhases = (
+				6B3798A57C17912CB457B4FE /* Check Pods Manifest.lock */,
 				72ED05CA1D17EAC30033C8B0 /* Sources */,
 				72ED05CB1D17EAC30033C8B0 /* Frameworks */,
 				72ED05CC1D17EAC30033C8B0 /* Resources */,
+				13365E5B0593F904D863EB40 /* Embed Pods Frameworks */,
+				28CE73010068FEAF96EAF352 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,13 +193,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				721E0C7E1D1EB51A005F8516 /* 唱针.png in Resources */,
 				72ED05E11D17EAC30033C8B0 /* LaunchScreen.storyboard in Resources */,
 				72ED05DE1D17EAC30033C8B0 /* Assets.xcassets in Resources */,
 				72ED05DC1D17EAC30033C8B0 /* Main.storyboard in Resources */,
+				7267436B1D19753100678953 /* 添加图片.png in Resources */,
+				726743711D199A1D00678953 /* 栏目—播放.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13365E5B0593F904D863EB40 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Music/Pods-Music-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28CE73010068FEAF96EAF352 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Music/Pods-Music-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B3798A57C17912CB457B4FE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		72ED05CA1D17EAC30033C8B0 /* Sources */ = {
@@ -152,6 +260,7 @@
 				72ED05D91D17EAC30033C8B0 /* ViewController.m in Sources */,
 				72ED05D61D17EAC30033C8B0 /* AppDelegate.m in Sources */,
 				72ED05D31D17EAC30033C8B0 /* main.m in Sources */,
+				7267436F1D19758300678953 /* SongImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +370,7 @@
 		};
 		72ED05E61D17EAC30033C8B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794EEED19A9BA09BA70E447F /* Pods-Music.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Music/Info.plist;
@@ -272,6 +382,7 @@
 		};
 		72ED05E71D17EAC30033C8B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F9E12B38CD564330A742F3 /* Pods-Music.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Music/Info.plist;
@@ -300,6 +411,7 @@
 				72ED05E71D17EAC30033C8B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

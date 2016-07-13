@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SongImageView.h"
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet SongImageView *rotationImageV;
+@property (strong, nonatomic) IBOutlet UIImageView *backGroundImageView;
 
+ //背景图片
 @end
 
